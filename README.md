@@ -1,11 +1,11 @@
-# DeusEx-Token (ERC-720)
+## DeusEx-Token (ERC-720)
 Deploys on Sepolia TestNetwork. Built with Solidity using Hardhat.
 
-# Setting Up
+### Setting Up
 
-1. Clone the repository
+### 1. Clone the repository
 
-2. Install dependencies
+### 2. Install dependencies
 
 ```bash
 $ cd DeusEx-Token
@@ -14,13 +14,13 @@ $ npx hardhat
 $ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox @nomiclabs/hardhat-ethers
 ```
 
-3. Compile
+### 3. Compile
 ```bash
 $ npx hardhat clean
 $ npx hardhat compile
 ```
 
-4. Deployment
+### 4. Deployment
 ```bash
 $ npx hardhat run scripts/deploy.js --network sepolia
 ```
