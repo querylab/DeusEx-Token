@@ -8,11 +8,17 @@ const hre = require("hardhat");
 
 async function main() {
   const MyToken = await ethers.getContractFactory("DeusEx");
-  uniswapRouterAddress = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
-  vaultAddress = "0x86d6e8928cA513Cb4427255739b40eCF3996Ea1B"//My Goerli Wallet Address
+  uniswapRouterAddress = "0xC532a74256D3Db42D0Bf7a0400fEFDbad7694008" //Uniswap Router Address fork for sepolia Network
+  vaultAddress = "0x96d6e82587A513Cb4427255739b40eCF3996Ea1B"//My Sepolia Wallet Address
   const myToken = await MyToken.deploy(uniswapRouterAddress, vaultAddress);
   await myToken.deployed();
-  console.log("DeusEx-Machina launched at:", myToken.address);
+
+
+  console.log("******************************************");
+  console.log("DeusEx-Machina(DX)Token Contract Adress\n");
+  console.log(myToken.address);
+  console.log("******************************************");
+
 }
 
 main().catch((error) => {
