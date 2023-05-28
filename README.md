@@ -8,7 +8,6 @@ Deploys on Sepolia TestNetwork. Built with Solidity using Hardhat.
 2. Install dependencies
 
 ```bash
-$ mkdir DeusEx-Token
 $ cd DeusEx-Token
 $ npm install --save-dev hardhat
 $ npx hardhat
