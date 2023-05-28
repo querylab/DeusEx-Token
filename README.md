@@ -1,6 +1,5 @@
-# DeusEx-Token(ERC-720)
-
-This is a DeusEx-Token(ERC-720) Deploys on Sepolia TestNetwork. Built with Solidity using Hardhat.
+# DeusEx-Token (ERC-720)
+Deploys on Sepolia TestNetwork. Built with Solidity using Hardhat.
 
 # Setting Up
 
