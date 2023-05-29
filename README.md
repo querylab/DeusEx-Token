@@ -1,4 +1,4 @@
-## DeusEx-Token (ERC-720)
+## DeusEx-Token (ERC20)
 Deploys on Sepolia TestNetwork. Built with Solidity using Hardhat.
 
 ### Setting Up
