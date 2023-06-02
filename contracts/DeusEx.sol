@@ -156,6 +156,7 @@ contract DeusEx is Context, IERC20, IERC20Metadata {
         require(from != address(0), "ERC20: transfer from the zero address");
         require(to != address(0), "ERC20: transfer to the zero address");
 
+        //===============================================================
         // My implementation
         uint feesCollected;
         if (!is_taxless[from] && !is_taxless[to]) {
@@ -171,6 +172,7 @@ contract DeusEx is Context, IERC20, IERC20Metadata {
         _balances[from] -= feesCollected;
         _balances[vaultAddress] += feesCollected;
         // End my implementation
+        //==============================================================
 
         uint256 fromBalance = _balances[from];
         require(fromBalance >= amount, "ERC20: transfer amount exceeds balance");
