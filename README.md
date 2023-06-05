@@ -10,7 +10,6 @@ Deploys on Sepolia TestNetwork. Built with Solidity using Hardhat.
 ```bash
 $ cd DeusEx-Token
 $ npm install --save-dev hardhat
-$ npx hardhat
 $ npm install --save dotenv @nomiclabs/hardhat-etherscan @openzeppelin/contracts @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-toolbox @nomiclabs/hardhat-ethers
 ```
 
